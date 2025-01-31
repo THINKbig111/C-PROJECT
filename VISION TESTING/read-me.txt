@@ -1,0 +1,58 @@
+Vision Testing System
+
+ Project Overview
+
+The Vision Testing System was developed in 2023 during my first year at Daeyang University. This project aimed to create a console-based application that assists in preliminary eye examinations. The system supports various functionalities including patient registration, visual acuity testing, color blindness assessment, and data management.
+ Objectives
+
+- To simulate a basic eye examination environment using C programming.
+- To manage patient records efficiently.
+- To provide basic recommendations for eye care based on test results.
+
+ Features
+
+1. User Interface:
+   - A console-based interface with interactive prompts and visual elements.
+   - ASCII art and text formatting to enhance user engagement.
+
+2. Patient Management:
+   - Adding, searching, updating, and deleting patient records.
+   - Storing patient details such as name, age, gender, and test results.
+
+3. Vision Tests:
+   - Visual Acuity Test: Simulates reading a Snellen chart and calculates a percentage score based on correct answers.
+   - Color Blindness Test: Uses color boxes to test the patient's ability to distinguish between different colors.
+   - Astigmatism Test:  Basic shape orientation test to check for astigmatism symptoms.
+
+4. Data Analysis:
+   - Analysis of test results to recommend whether the patient needs glasses, and what type if any.
+   - Suggestions for further medical consultation if necessary.
+
+Technical Details
+- ADMIN DETAILS - username=admin and password = 0000 
+- Programming Language: C
+- Platform: Windows Console Application
+- Data Storage: Filesystem-based storage using binary files (.dat format).
+
+ Challenges Encountered
+
+- Implementing graphical elements in a text-based console environment.
+- Managing file operations for data persistence.
+- Creating a user-friendly navigation system with keyboard inputs.
+
+ Learning Outcomes
+
+- Enhanced understanding of C programming, particularly in handling file I/O operations and console manipulation.
+- Gained insights into basic medical diagnostics related to vision testing.
+- Developed skills in structuring larger C projects and modularizing code for readability and maintainability.
+
+ Future Improvements
+
+- Integrating a graphical user interface (GUI) for better user experience.
+- Implementing real-time data processing and analysis.
+- Adding more comprehensive vision tests and medical advice modules.
+
+ Conclusion
+
+The Vision Testing System project was a significant learning experience, combining software development skills with basic medical knowledge. It showcased the power of programming in solving real-world problems, particularly in the field of healthcare technology.
+
